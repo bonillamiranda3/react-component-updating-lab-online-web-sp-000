@@ -21,9 +21,9 @@ class App extends Component {
       <div className="App">
         <header>
           <h1>MultiTimer</h1>
-          <Controls 
-          updateIntervalSetting={this.updateIntervalSetting} 
-          updateInterval={this.state.updateInterval} 
+          <Controls
+          updateIntervalSetting={this.updateIntervalSetting}
+          updateInterval={this.state.updateInterval}
           handleAddTimer={this.handleAddTimer}/>
         </header>
         <div className="TimerGrid">
